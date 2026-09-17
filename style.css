@@ -25,6 +25,7 @@ body {
 
 .search-box {
     width: 385px;
+
     background-color: white;
 
     padding: 35px 30px 30px;
@@ -99,35 +100,14 @@ body {
 
 .date-input {
     height: 37px;
+
     border: 1px solid #ddd6e8;
+
     border-radius: 7px;
+
     color: #654b7e;
+
     font-size: 12px;
-}
-
-.time-input {
-    height: 37px;
-    margin-top: 7px;
-    border: 1px solid #ddd6e8;
-    border-radius: 7px;
-    color: #654b7e;
-    font-size: 12px;
-}
-
-
-
-.calendar-icon {
-    color: #8c36d8;
-
-    font-size: 15px;
-}
-
-
-
-.arrow {
-    margin-left: auto;
-
-    font-size: 18px;
 }
 
 
@@ -137,6 +117,18 @@ body {
 }
 
 
+
+.time-select {
+    height: 37px;
+
+    border: 1px solid #ddd6e8;
+
+    border-radius: 7px;
+
+    color: #654b7e;
+
+    font-size: 12px;
+}
 
 
 
@@ -191,6 +183,8 @@ body {
     line-height: 24px;
 }
 
+
+
 .check-icon {
     font-weight: bold;
 
@@ -220,6 +214,8 @@ body {
 
     cursor: pointer;
 }
+
+
 
 .search-button:hover {
     background-color: #e60000;
